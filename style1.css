@@ -1,0 +1,72 @@
+html, body{
+    background-color: aquamarine;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    padding:20px;
+    background-color: azure;
+}
+
+button{
+    width:100px;
+    height:30px;
+    background-color: aqua;
+    border: none;
+    margin: 20px;
+    font-weight: bold;
+}
+
+button:hover {
+    transform: scale(1.2);
+    background-color: blue;
+    transition-duration: 0.4s;
+    color:azure
+}
+
+.text-block {
+    display: flex;
+    margin:20px;
+    /* padding: 20px */
+}
+
+.column{
+    width:50%;
+    margin-right: 2%;
+}
+
+#proj{
+    margin:20px;
+    padding:20px;
+    background-color: brown;
+    color: azure;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+li{
+    margin: 8px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    color: rgb(35, 255, 255);
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: azure;
+    color: black;
+    font-weight: bold;
+}
+
+#bio{
+    width:50%;
+    float: left;
+    margin: 20px;
+}
+
